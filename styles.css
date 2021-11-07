@@ -10,6 +10,15 @@ body{
     font-size: 1.7rem;
 }
 
+.heading{
+    text-align: center;
+    margin: 1rem;
+    /* color: linear-gradient(to right, #7A5FFF 19%, #9B8FF1 87%); */
+    background: radial-gradient(circle farthest-corner at center center, #A29CFF 0%, #EBF4FF 50%, #6246F0 100%);
+    color: transparent;
+    background-clip: text;
+}
+
 .container{
     margin: 0 auto;
     width: 50%;
@@ -18,9 +27,14 @@ body{
     border: 1px solid #ccccd6;
     grid-column: span 2 auto;
     padding: 2rem;
-
+    box-shadow: ;
 }
 
+/* 
+=====
+TOP INFO
+=====
+*/
 .top-info{
     text-align: center;
 }
@@ -69,6 +83,22 @@ p{
     font-family: "Raleway";
     color: rgb(147, 147, 169);
 }
+
+/* 
+=====
+BOTTOM INFO
+=====
+*/
+.bottom-info{
+    display: grid;
+    gap: 1rem;
+}
+.p1, .p2, .p3{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 
 
