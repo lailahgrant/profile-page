@@ -1,13 +1,13 @@
 # Profile Page 
 
-### UI designs by Bello Ololade
+### UI designs by Bello Ololade 💻
 <img src="./images/profile-page-1.jpg"  alt="Profile Page 1">
 
 <img src="./images/profile-page-2.jpg"  alt="Profile Page 1">
 
 <img src="./images/profile-page-3.jpg"  alt="Profile Page 1">
 
-#### Color codes
+#### Color codes 🎨
 ```
 Background color and tab color : #181832; rgb(24, 24, 50)
 
