@@ -7,7 +7,7 @@
 body{
     background-color: #181832;
     font-family: "Oswald", "Raleway", "Tahoma";
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .container{
@@ -15,7 +15,37 @@ body{
     width: 50%;
     display: grid;
     gap: 1rem;
+    border: 1px solid #ccccd6;
+    grid-column: span 2 auto;
+    padding: 2rem;
 
+}
+
+.top-info{
+    text-align: center;
+}
+.top-info img{
+    width: 30%;
+    border: 1px solid #9a8ff11f;
+    border-radius: 50%;
+}
+.top-info img::after{
+    content: "";
+    border: 1px solid #9b8ff1;
+    position: absolute;
+}
+
+.tabs{
+    
+    width:100%;
+}
+
+ul,li,a{
+    font-size: 1rem;
+    /* display:inline-block; */
+    display:flex;
+    justify-content: space-around;
+    margin: .7rem 0 .7rem 0;
 }
 
 ul{
@@ -25,13 +55,14 @@ ul{
 
 li a{
     list-style: none;
-    color:silver;
+    color: whitesmoke;
     text-decoration: none;
 }
 
 h1, h3 {
     font-family: "Oswald";
     color: #b4b5c8;
+    font-weight: 700;
 }
 
 p{
