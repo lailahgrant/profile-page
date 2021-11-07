@@ -19,3 +19,7 @@ Text color (paragraphs) : #939309; rgb(147, 147, 169)
 
 
 ```
+
+#### Fonts
+- Oswald
+- Raleway
