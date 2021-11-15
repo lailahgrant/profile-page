@@ -7,16 +7,16 @@
 body{
     background-color: #181832;
     font-family: "Oswald", "Raleway", "Tahoma";
-    font-size: 1.7rem;
+    font-size: 1.2rem;
 }
 
 .heading{
     text-align: center;
-    margin: 1rem;
-    /* color: linear-gradient(to right, #7A5FFF 19%, #9B8FF1 87%); */
+    margin: .7rem;
+    /* color: linear-gradient(to right, #7A5FFF 19%, #9B8FF1 87%); 
     background: radial-gradient(circle farthest-corner at center center, #A29CFF 0%, #EBF4FF 50%, #6246F0 100%);
     color: transparent;
-    background-clip: text;
+    background-clip: text;*/
 }
 
 .container{
@@ -24,10 +24,10 @@ body{
     width: 50%;
     display: grid;
     gap: 1rem;
-    border: 1px solid #ccccd6;
+    border: 1px solid #1b1c3a;
     grid-column: span 2 auto;
     padding: 2rem;
-    box-shadow: ;
+    box-shadow: rgba(3, 8, 20, 0.432) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.411)  0px 0.075rem  0.175rem;
 }
 
 /* 
